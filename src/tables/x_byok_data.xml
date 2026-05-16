@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2026 Vladimir Kapustin — AGPL-3.0 -->
+<unload unload_date="2026-05-16 00:00:00">
+  <x_byok_provider_config action="INSERT_OR_UPDATE">
+    <sys_id>byok_prov_0000000001</sys_id>
+    <provider>azure_openai</provider>
+    <endpoint>https://your-resource.openai.azure.com/openai/deployments/gpt-4</endpoint>
+    <model>gpt-4</model>
+    <status>Active</status>
+    <active>true</active>
+    <sys_scope>x_byok</sys_scope>
+  </x_byok_provider_config>
+  <x_byok_provider_config action="INSERT_OR_UPDATE">
+    <sys_id>byok_prov_0000000002</sys_id>
+    <provider>bedrock</provider>
+    <endpoint>https://bedrock-runtime.us-east-1.amazonaws.com</endpoint>
+    <model>anthropic.claude-3-sonnet</model>
+    <status>Active</status>
+    <active>true</active>
+    <sys_scope>x_byok</sys_scope>
+  </x_byok_provider_config>
+  <x_byok_audit_log action="INSERT_OR_UPDATE">
+    <sys_id>byok_audit_0000000001</sys_id>
+    <provider>azure_openai</provider>
+    <state>Completed</state>
+    <execution_time_ms>3420</execution_time_ms>
+    <errors/>
+    <warnings/>
+    <api_test_status>Connection OK</api_test_status>
+    <sys_scope>x_byok</sys_scope>
+  </x_byok_audit_log>
+</unload>

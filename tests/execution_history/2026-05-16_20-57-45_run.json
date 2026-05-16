@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-16T20:57:45Z",
+  "product": "BYOK",
+  "version": "1.0.0",
+  "scenarios_run": [
+    "SYS_APP: scope=x_byok and AGPL-3.0",
+    "SI: BYOKAutoconfigurator.js has core methods",
+    "TABLES: provider_config + audit_log seeded",
+    "README: mentions all 4 providers"
+  ],
+  "passed": 4,
+  "failed": 0,
+  "skipped": 0,
+  "duration_ms": 0,
+  "environment": "local-ci (static)",
+  "commit_sha": "(local)"
+}
